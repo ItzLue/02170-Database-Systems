@@ -5,13 +5,5 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 1234
-    volumes:
-      - /db:/var/lib/mysql
     ports:
       - 3306:3306
-
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
