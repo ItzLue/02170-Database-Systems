@@ -10,4 +10,4 @@ The only user for now is root and the password is 1234
 ### Start the container 
 - Use a terminal and cd into the project folder
 - Run ```docker-compose up```
-- 
+- Connect to the databse on port 3306
